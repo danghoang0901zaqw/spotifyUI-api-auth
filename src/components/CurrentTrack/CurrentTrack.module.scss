@@ -1,0 +1,20 @@
+.wrapper {
+    color: #fff;
+    .track {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        .track-image {
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .song {
+            }
+            .singer {
+                color: #b2b2b2;
+            }
+        }
+    }
+}

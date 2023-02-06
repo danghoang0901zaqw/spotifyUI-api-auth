@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+
+  width: 100vw;
+  height: 100vh;
+  background: #1db954;
+    .logo {
+     height: 20vh;
+    }
+    .btn {
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+      padding: 1rem 5rem;
+      border-radius: 5rem;
+
+      background: #000;
+      color: #49f585;
+      font-size: 1.4rem;
+    }
+
+
+}

@@ -1,0 +1,41 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 100%;
+    overflow: hidden;
+    .list {
+        height: 55vh;
+        max-height: 100%;
+        overflow: auto;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        &::-webkit-scrollbar{
+          width: 0.6rem;
+          &-thumb{
+            background: rgb(255,255,255);
+            border-radius: 5px;
+          }
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 5px 0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            .icon {
+                font-size: 2rem;
+            }
+            .item-text {
+            }
+            &:hover {
+                color: #fff;
+                background: #000;
+            }
+        }
+    }
+}
